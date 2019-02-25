@@ -54,3 +54,11 @@
         }
     }
 }
+
+.immersive-header-container {
+    min-height: 80vh !important;
+
+    @include mq(desktop) {
+        height: 100% !important;
+    }
+}
